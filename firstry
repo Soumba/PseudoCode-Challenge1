@@ -1,0 +1,13 @@
+Debut anelouee (argent réel, prix/heure réel, nombremaxane entier)
+
+  nombremaxane = 0
+  argent = (réel)
+  prix/heure = (réel)
+
+  TANT QUE argent >0 ET prix/heure >0 ET argent >= prix/heure
+    argent = argent - prix
+    nombreane= nombreane +1
+  Fin TANT QUE
+  
+  retour entier  nombremaxane
+Fin anelouee
